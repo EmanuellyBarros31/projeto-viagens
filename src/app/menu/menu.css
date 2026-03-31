@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    height: 88px;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+.caixa-img-logo {
+    height: 40px;
+    width: 600px;
+    display: flex;
+    gap: 150px;
+    color: #757575;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login {
+    background-color: #EB662B;
+    height: 0px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 22px;
+    height: 15px;
+    width: 33px;
+}
+
+.categorias {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
