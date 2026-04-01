@@ -1,0 +1,105 @@
+.banner {
+    background-image: url('/assets/banner.png');
+    height: 700px;
+    width: 1800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+
+
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+.txt-banner {
+    height: 130px;
+    width: 700px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.txt-maior {
+    font-size: 69px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.descricao {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.caixa-pesquisa {
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    justify-content: space-around;
+    height: 82px;
+    align-items: center;
+    gap:20px;
+    border-radius: 10px;
+        margin: 0 auto;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+        padding: 5px ;
+
+}
+
+.quadrado {
+    height: 50px;
+    width: 50px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
+.elementos-pesquisa {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.tt-pesquisa {
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.pesquisa-txt {
+    font-size: 14px;
+    
+}
+
+.txt-meio {
+    font-weight: 500px;
+    font-size: 14px;
+}
+
+.btn-pesquisa {
+    height: 60px;
+    width: 136px;
+    border-radius: 15px;
+    background-color: #EB662B;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 15px;
+    font-size: 15px;
+}

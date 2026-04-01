@@ -1,0 +1,46 @@
+.section-3{
+    width: 1320px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+.tt-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 30px;
+
+}
+.paises{
+display: flex;
+flex-direction: row;
+gap: 40px;
+align-items: center;
+justify-content: center;
+}
+.txt-paises{
+    font-size: 15;
+    font-weight: 500;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    
+
+.txt-tours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tt-2{
+    font-size: 25px;
+    font-weight: bold;
+}
