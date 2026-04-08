@@ -1,51 +1,58 @@
-.section-3{
-    width: 1320px;
-    height: 300px;
-    display: flex;
+.section-carrosel {
     margin: auto;
-    flex-direction: column;
-    margin-top: 60px;
-
+    width: 1320px;
+    height: 390.25px;
+    color: #05073C;
 }
-.box-img{
-    background-image: url("/assets/paris.png");
 
-
+.carrosel {
+    margin-top: 80px;
 }
-.tt-3{
+
+
+.caixa-box-titulo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: start;
-    margin-bottom: 30px;
-
-}
-.paises{
-display: flex;
-flex-direction: row;
-gap: 40px;
-align-items: center;
-justify-content: center;
-}
-.txt-paises{
-    font-size: 15;
-    font-weight: 500;
-    margin-top: 20px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    margin-bottom: 50px;
 }
 
-    
+.box-titulo {
+    font-size: 30px;
+    font-weight: 700;
+}
 
-.txt-tours{
+.box-descricao {
+    font-size: 14.3;
+    font-weight: 400;
+}
+
+.box-turismo {
     display: flex;
-    align-items: center;
-    justify-content: center;
-
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.tt-2{
-    font-size: 25px;
+.caixa-texto-turismo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.texto-pais {
+    font-size: 20px;
     font-weight: bold;
+}
+
+.box-img {
+    width: 130px;
+    height: 130px;
+}
+
+.box-img:hover {
+    width: 150px;
+    height: 150px;
+    transition: 0.1s ease-in-out;
 }

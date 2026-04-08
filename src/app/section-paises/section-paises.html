@@ -1,52 +1,21 @@
-<section class="section-3">
-            <div class="tt-3">
-                <p class="tt-2">Trending destinations</p>
-                <p>See all</p>
+<section class="section-carrosel">
+    <div class="carrosel">
+        <div class="caixa-box-titulo">
+            <p class="box-titulo">Trending destinations</p>
+            <p class="box-descricao">see all</p>
+        </div>
+        <div class="box-turismo">
+
+            @for (item of tours; track item.pais){
+
+            <div class="{{item.pais.toLowerCase()}}">
+                <img class="box-img" src="assets/carrosel/{{item.img}}" alt="imagem de {{item.pais}}">
+                <div class="caixa-texto-turismo">
+                    <p class="texto-pais">{{item.pais}}</p>
+                    <p class="texto-tours">{{item.tours}}</p>
+                </div>
             </div>
-            <div class="paises">
-                <div class="paris">
-                    <img class="box-img" src="assent/paris.png" alt="">
-                    <p class="txt-paises">Paris</p>
-                    <p class="txt-tours">100+ Tours</p>
-                  </div>
-                  <div class="singapura">
-                      <img  class="box-img" src="assent/singapura.png" alt="">
-                      <p class="txt-paises">singapura</p>
-                      <p class="txt-tours">300+ Tours</p>
-                  </div>
-                  <div class="roma">
-                      <img class="box-img" src="assent/roma.png" alt="">
-                      <p class="txt-paises">Roma</p>
-                      <p class="txt-tours">400+ Tours</p>
-                  </div>
-                  <div class="bagkok">
-                      <img class="box-img" src="assent/bangkok.png" alt="">
-                      <p class="txt-paises">Bangkok</p>
-                      <p class="txt-tours">100+ Tours</p>
-                  </div>
-                  <div class="bali">
-                      <img class="box-img" src="assent/bali.png" alt="">
-                      <p class="txt-paises">Bali</p>
-                      <p class="txt-tours">600+ Tours</p>
-                  </div>
-                  <div class="phuket">
-                      <img  class="box-img"src="/puket.png" alt="">
-                      <p class="txt-paises">Phuket</p>
-                      <p class="txt-tours">200+ Tours</p>
-                  </div>
-                  <div class="tokyo">
-                      <img  class ="box-img"src = "assent/tokyo.png" alt="">
-                      <p class="txt-paises">tokyo</p>
-                      <p class="txt-tours">700+ Tours</p>
-                  </div>
-                  <div class="capadocia">
-                      <img class="box-img" src="assent/capadocia.png" alt="">
-                      <p class="txt-paises">Capadocia</p>
-                      <p class="txt-tours">900+ Tours</p>
-                  </div>
-            </div>
-          
-
-
-
-        </section>
+            }
+        </div>
+    </div>
+</section>
