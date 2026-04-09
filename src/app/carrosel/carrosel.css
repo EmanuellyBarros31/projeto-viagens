@@ -1,6 +1,7 @@
 footer{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 .caixa-footer{
     background-repeat: repeat;
